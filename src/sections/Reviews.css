@@ -1,0 +1,122 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.reviews__title {
+    margin-top: 100px;
+    max-width: 920px;
+}
+
+.reviews__title > h1 {
+    font-weight: 500;
+}
+
+.reviews__title > p {
+    padding: 0 138px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.reviews__twitter {
+    display: flex;
+    margin-top: 48px;
+}
+
+.twitter__card {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    padding:40px 30px ;
+    border-radius: 8px;
+    background-color:rgba(23, 162, 184, .1);
+}
+
+.twitter__card:not(:last-child) {
+    margin-right: 32px;
+}
+
+.twitter__user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.twitter__user > img {
+    height: 65px;
+    border-radius: 50%;
+}
+
+.twitter__user-handle {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    margin-right: 32px;
+}
+
+.twitter__user-handle > h2 {
+    margin-bottom: 0;
+}
+
+.twitter__user > .MuiSvgIcon-root {
+    color: rgb(55, 149, 238);
+}
+
+.reviews__test--carousel {
+    border-radius: 6px;
+    margin-top: 48px;
+    height: 300px;
+    width: 960px;
+    position: relative;
+    z-index: 0;
+}
+
+.reviews__test--carousel::before,
+.reviews__test--carousel::after{
+    content: "";
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    top: 51px;
+    z-index: -5;
+    background-color: #319ed7;
+    border-radius: 50%;
+}
+
+.reviews__test--carousel::before{
+    right: -24px;
+}
+
+.reviews__test--carousel::after {
+    left: -23px;
+}
+
+.reviews__video-ish {
+    margin-top: -56px;
+    margin-bottom: 100px;
+    height: 550px;
+    width: 1100px;
+    border-radius: 12px;
+    background: url('../componenets//assets/background.webp');
+    position: relative;
+}
+
+.reviews__video-ish > .MuiSvgIcon-root {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 16px 32px;
+    border-radius: 30%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    color: white;
+    font-size: 56px
+}
+
+.twitter--blue {
+    color: #319ed7;
+}

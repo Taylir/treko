@@ -1,0 +1,106 @@
+.different {
+  width: 100%;
+}
+
+.different__top-half {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.different__top-half > h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.different__top-half > p {
+  font-size: 17px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.different__top-examples {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  width: 1110px;
+  margin: 48px auto;
+}
+
+.different__top-example {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.different__top-example > img {
+  height: 60px;
+}
+
+.different__bottom-half {
+  height: 660px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+
+.different__background--wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+}
+
+.different__background {
+  background-image: url("../componenets/assets/bg-03.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.different__bottom-left > img {
+  height: 350px;
+}
+
+.different__bottom-right {
+  max-width: 540px;
+}
+
+.different__bottom-right > h1 {
+  font-size: 48px;
+  color: white;
+}
+
+.bottom-right__subs {
+  color: whitesmoke;
+  margin-top: 8px;
+  display: flex;
+}
+
+.bottom-right__subs > p {
+  line-height: 1.5;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+
+.check-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  color: rgb(37, 146, 209);
+  display: flex;
+  align-items: top;
+  padding: 0;
+}

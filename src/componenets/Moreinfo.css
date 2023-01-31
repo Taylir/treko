@@ -1,0 +1,33 @@
+.moreinfo {
+    height: 300px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreinfo__topics{
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.moreinfo__topic {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreinfo__topic > p {
+    text-align: center;
+    color: #757575;
+    line-height: 1.5;
+}
+
+.moreinfo__topic > img {
+    height: 65px;
+    margin-bottom: 20px;
+}

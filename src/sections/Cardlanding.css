@@ -1,0 +1,92 @@
+.card-landing {
+  background-color: whitesmoke;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -24px;
+}
+
+.card-landing__top-half {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-landing__top-half > p {
+  max-width: 900px;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(0, 0, 0, .75);
+}
+
+.card-landing__top-bullets {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 36px;
+}
+
+.card-landing__bullet {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  max-width: 500px;
+  font-weight: 500;
+  margin: 16px;
+  color: rgba(0, 0, 0, .6);
+}
+
+.card-landing__bullet > .MuiSvgIcon-root {
+  margin-bottom: 20px;
+  margin-right: 8px;
+}
+
+.card-landing__checkmark {
+  color: skyblue;
+  font-weight: bold;
+}
+
+.card-landing__bottom-half {
+    width: 100%;
+    padding-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightgray;
+}
+
+.card-landing__left-title {
+    max-width: 470px;
+}
+
+.card-landing__right-img > img  {
+    height: clamp(400px, 100%, 500px);
+    margin: 16px;
+}
+
+.card-landing__left-descriptor {
+    position: relative;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.card-landing__left-descriptor > .MuiSvgIcon-root {
+  margin-top: -3px;
+}
+
+.card-landing__left-descriptor > .MuiSvgIcon-root {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+.card-landing__left--tech-imgs > img {
+    margin-right: 16px;
+    filter: grayscale(1);
+    height: 40px;
+}

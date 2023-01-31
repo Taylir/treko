@@ -1,0 +1,22 @@
+.totop {
+    position: fixed;
+    bottom: 32px;
+    right: 44px;
+    visibility: visible;
+    transition: all 300ms ease-in-out;
+    opacity: 1;
+}
+
+.attop{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.totop > .MuiSvgIcon-root {
+    font-size: 32px;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, .3);
+    cursor: pointer;
+}

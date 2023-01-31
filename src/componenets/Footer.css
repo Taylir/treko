@@ -1,0 +1,112 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 75px auto;
+  max-width: 1140px;
+}
+
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__top--treko {
+  flex: 0.4;
+}
+
+.footer__top--treko > img {
+  width: 175px;
+  margin-bottom: 25px;
+}
+
+.footer__top--treko > p {
+  line-height: 1.75;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer__top--company {
+  display: flex;
+  flex: 0.3;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer__company-company > h3,
+.footer__company-resources > h3 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.footer__companies > a {
+  text-decoration: none;
+}
+
+.footer__companies > a > p {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 16px;
+}
+
+.footer__top--follow {
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 90px;
+}
+
+.footer__top--follow > h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer__follows {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer__follow-icon{
+    margin-right: 8px;
+    background-color: #eeeeee;
+    padding: 8px;
+    color: black;
+    border-radius: 50%;
+}
+
+
+
+.footer__facebook:hover,
+.footer__twitter:hover,
+.footer__google:hover,
+.footer__linkedin:hover {
+    filter: invert(1);
+    transition: all 300ms ease-in-out;
+}
+
+.footer__facebook:hover {
+    background-color: #C4A667;
+}
+
+.footer__twitter:hover {
+    background-color: #FF5612;
+}
+
+.footer__google:hover {
+    background-color: #32EEEE;
+}
+
+.footer__linkedin:hover {
+    background-color: #C5A689;
+}
+
+.footer__bottom {
+    width: 100%;
+    height: 0px;
+    padding-top: 30px;
+    color: lightgray;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
