@@ -135,7 +135,7 @@ export default function Different() {
           </div>
         </div>
       </div>
-      <div className="different__bottom-half">
+      <div id="different__bottom-half">
         <div className="different__background--wrapper">
           <div className="different__background"></div>
         </div>

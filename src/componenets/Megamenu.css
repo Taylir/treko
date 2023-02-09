@@ -16,10 +16,12 @@
 
 .most-popular__items {
     margin-right: 20px;
+    margin-top: 32px;
 }
 
 .most-popular__item {
     margin-left: 16px;
+    margin-top: 16px;
     font-size: 16px;
     padding: 6px;
     color: rgba(0, 0, 0, .5);

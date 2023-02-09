@@ -71,7 +71,7 @@ export default function Navbar({ scroll }) {
               </div>
             </li>
             <li className="nav__list-item">
-              <a href="/">Reviews</a>
+              <a href="#reviews">Reviews</a>
             </li>
             <li className="nav__list-item">
               <a href="/">FAQs</a>

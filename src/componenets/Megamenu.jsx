@@ -13,29 +13,28 @@ export default function Megamenu() {
         <div className="most-popular__items">
           <div className="most-popular__item">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur, assumenda?
+              React is still one of the most used by both businesses and ...
             </p>
             <p>
-              <span className="date-time">Jan, 2023 - 12 min read</span>
-            </p>
-          </div>
-          <div className="most-popular__item">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur, assumenda?
-            </p>
-            <p>
-              <span className="date-time">Jan, 2023 - 12 min read</span>
+              <span className="date-time">Feb, 2023 - 14 min read</span>
             </p>
           </div>
           <div className="most-popular__item">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur, assumenda?
+              Now with the new stacks of code from next to native becoming
+              fullstack...
             </p>
             <p>
-              <span className="date-time">Jan, 2023 - 12 min read</span>
+              <span className="date-time">Jan, 2023 - 4 min read</span>
+            </p>
+          </div>
+          <div className="most-popular__item">
+            <p>
+              Google has been at the top of browsers when it comes to features
+              and now...
+            </p>
+            <p>
+              <span className="date-time">Jan, 2023 - 8 min read</span>
             </p>
           </div>
         </div>
@@ -46,8 +45,9 @@ export default function Megamenu() {
         <div className="featured__description">
           <h2>Is Glass the style of 2023?</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, maxime
-            blanditiis dolore odit ducimus laboriosam?
+            Last year with a bunch of moving pieces it might be time for a new
+            year new format that people love so why not a futuristic glass
+            theme? Feeling like the future we ...
           </p>
         </div>
       </div>
@@ -58,8 +58,8 @@ export default function Megamenu() {
             <img src={imgSmall1} alt="" />
             <div className="mega-drop__latest-description">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur, assumenda?
+                UI/UX is still loved but so many websites are still lacking in
+                the new world of technology.
               </p>
               <p>
                 <span className="date-time">Jan, 2023 - 12 min read</span>
@@ -70,8 +70,8 @@ export default function Megamenu() {
             <img src={imgSmall2} alt="" />
             <div className="mega-drop__latest-description">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur, assumenda?
+                Different tools are wanted more and more as users see what else
+                is out there that can be made.
               </p>
               <p>
                 <span className="date-time">Jan, 2023 - 12 min read</span>
@@ -82,8 +82,8 @@ export default function Megamenu() {
             <img src={imgSmall3} alt="" />
             <div className="mega-drop__latest-description">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur, assumenda?
+                Installing new updates are not always good sometimes it could
+                make things run slower even.
               </p>
               <p>
                 <span className="date-time">Jan, 2023 - 12 min read</span>

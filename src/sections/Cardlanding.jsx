@@ -10,7 +10,7 @@ import logo5 from "../componenets/assets/chimp.png";
 
 export default function Cardlanding() {
   return (
-    <div className="card-landing">
+    <div id="card-landing">
       <div className="card-landing__top-half">
         <p>
           {" "}

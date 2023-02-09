@@ -18,7 +18,7 @@ function Reviews() {
   };
 
   return (
-    <div className="reviews">
+    <div id="reviews">
       <div className="reviews__title">
         <h1>Loved by freelancers and agencies around the world.</h1>
         <p>
@@ -82,7 +82,7 @@ function Reviews() {
         </Slider>
       </div>
       <a href="https://www.youtube.com/watch?v=X67_ecp6PC8" target="_blank" rel="noreferrer">
-        <div className="reviews__video-ish">
+        <div id="reviews__video-ish">
           <PlayArrow />
         </div>
       </a>

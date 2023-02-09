@@ -38,7 +38,7 @@
   height: 60px;
 }
 
-.different__bottom-half {
+#different__bottom-half {
   height: 660px;
   width: 100%;
   position: relative;

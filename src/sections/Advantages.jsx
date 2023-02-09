@@ -5,7 +5,7 @@ import advertise from "../componenets/assets/advertise.svg";
 
 export default function Advantages() {
   return (
-    <div className="advantages">
+    <div id="advantages">
       <div className="advantages__top">
         <div
           data-aos="fade-left"

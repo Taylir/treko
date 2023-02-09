@@ -4,7 +4,7 @@ import "./Totop.css";
 
 function Totop({ scroll }) {
   return (
-      <a href="/" className={scroll ? "totop" : "attop"}>
+      <a href="#landing" className={scroll ? "totop" : "attop"}>
         <ArrowUpwardRounded />
       </a>
   );

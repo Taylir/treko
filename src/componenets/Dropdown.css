@@ -5,6 +5,10 @@
     box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, .5);
 }
 
+.drop-down__flex > a {
+    text-decoration: none;
+}
+
 .drop-down__item {
     width: 190px;
     display: flex;

@@ -10,7 +10,7 @@ import "aos/dist/aos.css";
 export default function Landing() {
   AOS.init();
   return (
-    <div className="landing">
+    <div id="landing">
       <div className="landing__landing-background"></div>
       <div className="landing__title">
         <h1>

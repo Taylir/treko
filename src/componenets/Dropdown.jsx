@@ -17,21 +17,21 @@ export default function Dropdown({
   return (
     <div className="drop-down__wrapper">
       <div className="drop-down__flex">
-        <div className="drop-down__item">
+        <a href="#card-landing" className="drop-down__item">
           {option1} <ChevronRightRounded className="drop-down__arrow" />
-        </div>
-        <div className="drop-down__item">
+        </a>
+        <a href="#card-landing" className="drop-down__item">
           {option2} <ChevronRightRounded className="drop-down__arrow" />
-        </div>
-        <div className="drop-down__item">
+        </a>
+        <a href="#different__bottom-half" className="drop-down__item">
           {option3} <ChevronRightRounded className="drop-down__arrow" />
-        </div>
-        <div className="drop-down__item">
+        </a>
+        <a href="#advantages" className="drop-down__item">
           {option4} <ChevronRightRounded className="drop-down__arrow" />
-        </div>
-        <div className="drop-down__item">
+        </a>
+        <a href="#reviews__video-ish" className="drop-down__item">
           {option5} <ChevronRightRounded className="drop-down__arrow" />
-        </div>
+        </a>
       </div>
       <div className="drop-down__flex">
         {option6 && (
